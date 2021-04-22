@@ -1,0 +1,48 @@
+body
+{
+	margin:0;
+	font-family:century gothic;
+}
+*
+{
+	box-sizing:border-box;
+}
+.rating-box
+{
+	background-color:black;
+	max-width: 600px; 
+	margin:40px auto;
+	padding: 50px;
+	display:flex;
+	flex-direction:column;
+	border-radius: 30px;
+}
+.rating-box .ratings .fa
+{
+	font-size:40px;
+	color:gold;
+	cursor: pointer;
+	//background-color: gray;
+	float:left;
+}
+.rating-box h1
+{
+	margin:0 0 30px;
+	font-size: 40px;
+	color: gold;
+}
+.rating-box input
+{
+	margin-top: 20px;
+	font-size:30px;
+	padding:6px 12px;
+	color:gold;
+	background-color:black;
+	border:1px solid gold;
+}
+.button
+{
+	margin-top: 20px;
+	font-size:30px;
+	padding:6px 12px;	
+}
